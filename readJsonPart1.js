@@ -1,5 +1,6 @@
 /* Node Module to read json from file and write it to new .txt file  
  @author Nikhil */
+ 
 var fs = require("fs");
 fs.readFile("source.json", function(err, data) {
 	var result = "First Name | Last Name | Score ";
