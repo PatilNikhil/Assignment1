@@ -28,3 +28,18 @@ function IsJsonString(str) {
     }
     return true;
 }
+
+/**
+1. This file names still not telling what are this file actually do
+w.g First filename is like . readJsonFile.js
+second file is sortJsonFile.js
+third files is convertJsontoXml.js
+
+2. Function description is missing here
+
+3.Function Name is wrong IsJsonString it should be isJsonString
+
+4. Code repitation is there all the three files are using function name IsJsonString and sortArray we can move this into one file where the 
+can be used in other place sort of librabry.
+
+*/
